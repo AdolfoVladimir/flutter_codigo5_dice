@@ -47,8 +47,8 @@ class _DicePageState extends State<DicePage> {
               flex: 1,
               child: TextButton(
                 onPressed: () {
-                  leftDice = Random().nextInt(6)+1;
-                  rightDice = Random().nextInt(6)+1;
+                  leftDice = Random().nextInt(6) + 1;
+                  rightDice = Random().nextInt(6) + 1;
                   setState(() {});
                 },
                 child: Image.asset(
@@ -60,8 +60,8 @@ class _DicePageState extends State<DicePage> {
               flex: 1,
               child: TextButton(
                 onPressed: () {
-                  rightDice = Random().nextInt(6)+1;
-                  leftDice = Random().nextInt(6)+1;
+                  rightDice = Random().nextInt(6) + 1;
+                  leftDice = Random().nextInt(6) + 1;
                   setState(() {});
                 },
                 child: Image.asset(
